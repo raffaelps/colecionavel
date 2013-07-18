@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D95B37B1788566F0085469A"
-               BuildableName = "Colecionavel.app"
-               BlueprintName = "Colecionavel"
-               ReferencedContainer = "container:Colecionavel.xcodeproj">
+               BlueprintIdentifier = "4D77404E17919EE8004B7833"
+               BuildableName = "Colacionavel.app"
+               BlueprintName = "Colacionavel"
+               ReferencedContainer = "container:Colacionavel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D95B37B1788566F0085469A"
-            BuildableName = "Colecionavel.app"
-            BlueprintName = "Colecionavel"
-            ReferencedContainer = "container:Colecionavel.xcodeproj">
+            BlueprintIdentifier = "4D77404E17919EE8004B7833"
+            BuildableName = "Colacionavel.app"
+            BlueprintName = "Colacionavel"
+            ReferencedContainer = "container:Colacionavel.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D95B37B1788566F0085469A"
-            BuildableName = "Colecionavel.app"
-            BlueprintName = "Colecionavel"
-            ReferencedContainer = "container:Colecionavel.xcodeproj">
+            BlueprintIdentifier = "4D77404E17919EE8004B7833"
+            BuildableName = "Colacionavel.app"
+            BlueprintName = "Colacionavel"
+            ReferencedContainer = "container:Colacionavel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D95B37B1788566F0085469A"
-            BuildableName = "Colecionavel.app"
-            BlueprintName = "Colecionavel"
-            ReferencedContainer = "container:Colecionavel.xcodeproj">
+            BlueprintIdentifier = "4D77404E17919EE8004B7833"
+            BuildableName = "Colacionavel.app"
+            BlueprintName = "Colacionavel"
+            ReferencedContainer = "container:Colacionavel.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
