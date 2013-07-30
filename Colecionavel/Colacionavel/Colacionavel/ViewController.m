@@ -17,8 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    [self abrir:1 nomeMinhaSogra:@""];
+    self.title = @"Colecionável";
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,11 +51,6 @@
     
     
     return cell;
-}
-
-- (void)abrir:(int)numero nomeMinhaSogra:(NSString*)nome
-{
-    
 }
 
 @end
