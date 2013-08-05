@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "PrincipalCell.h"
+#import "ListaColecionaveisViewController.h"
+#import "CategoriaDTO.h"
 
 @interface ViewController ()
 
@@ -38,19 +41,39 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"PrincipalCell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    PrincipalCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        NSArray *topLevelObjects = [[NSBundle mainBundle] loadNibNamed:CellIdentifier owner:nil options:nil];
+        
+        for (id currenctObject in topLevelObjects)
+        {
+            if ([currenctObject isKindOfClass:[UITableViewCell class]])
+            {
+                cell = (PrincipalCell *) currenctObject;
+            }
+        }
     }
     
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.textLabel.text = @"OI";
-    
+    cell.txtNome.text = @"Ola";
     
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 90;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    ListaColecionaveisViewController *listaColecionaveis = [[ListaColecionaveisViewController alloc] init];
+    
+    [self.navigationController pushViewController:listaColecionaveis animated:TRUE];
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end

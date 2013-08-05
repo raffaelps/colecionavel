@@ -30,6 +30,7 @@
 		4D77406917919EE8004B7833 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D77406817919EE8004B7833 /* Default-568h@2x.png */; };
 		4D77406C17919EE8004B7833 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77406B17919EE8004B7833 /* ViewController.m */; };
 		4D77406F17919EE8004B7833 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D77406D17919EE8004B7833 /* ViewController.xib */; };
+		4D925A2517B062A300342EED /* CategoriaDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D925A2417B062A300342EED /* CategoriaDTO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		4D77406A17919EE8004B7833 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4D77406B17919EE8004B7833 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4D77406E17919EE8004B7833 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4D925A2317B062A300342EED /* CategoriaDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriaDTO.h; sourceTree = "<group>"; };
+		4D925A2417B062A300342EED /* CategoriaDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriaDTO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,7 @@
 		4D77405817919EE8004B7833 /* Colacionavel */ = {
 			isa = PBXGroup;
 			children = (
+				4D925A2217B0628800342EED /* DTO */,
 				4D22238217A74BFC00012C01 /* Celulas */,
 				4D77406117919EE8004B7833 /* AppDelegate.h */,
 				4D77406217919EE8004B7833 /* AppDelegate.m */,
@@ -161,6 +165,15 @@
 				4D77406817919EE8004B7833 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D925A2217B0628800342EED /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				4D925A2317B062A300342EED /* CategoriaDTO.h */,
+				4D925A2417B062A300342EED /* CategoriaDTO.m */,
+			);
+			name = DTO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +257,7 @@
 				4D22237B17A74BA400012C01 /* CadastroColecionavelViewController.m in Sources */,
 				4D22238017A74BB800012C01 /* ConfiguracaoViewController.m in Sources */,
 				4D22238517A74C4300012C01 /* PrincipalCell.m in Sources */,
+				4D925A2517B062A300342EED /* CategoriaDTO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CategoriaDTO.h"
 
 @interface ListaColecionaveisViewController : UIViewController
+
+@property(nonatomic,retain)CategoriaDTO *categoria;
 
 @end

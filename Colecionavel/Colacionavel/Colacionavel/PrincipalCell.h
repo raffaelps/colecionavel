@@ -10,4 +10,7 @@
 
 @interface PrincipalCell : UITableViewCell
 
+@property(nonatomic,retain)IBOutlet UILabel *txtNome;
+@property(nonatomic,retain)IBOutlet UIImageView *img;
+
 @end

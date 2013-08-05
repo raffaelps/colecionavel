@@ -10,6 +10,8 @@
 
 @implementation PrincipalCell
 
+@synthesize img,textLabel;
+
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
