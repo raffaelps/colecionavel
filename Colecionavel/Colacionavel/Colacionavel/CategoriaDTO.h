@@ -10,6 +10,9 @@
 
 @interface CategoriaDTO : NSObject
 
+- (id) initWithValue:(NSNumber*)idCat nomeCategoria:(NSString*)nome imagemCategoria:(UIImage*)imagem;
+
+@property (nonatomic,retain)NSNumber *idCategoria;
 @property (nonatomic,retain)NSString *nomeCategoria;
 @property (nonatomic,retain)UIImage *imagemCategoria;
 

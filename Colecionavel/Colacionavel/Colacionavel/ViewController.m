@@ -10,6 +10,7 @@
 #import "PrincipalCell.h"
 #import "ListaColecionaveisViewController.h"
 #import "CategoriaDTO.h"
+#import "CategoriaDAO.h"
 
 @interface ViewController ()
 
@@ -21,6 +22,8 @@
 {
     [super viewDidLoad];
     self.title = @"Colecionável";
+    
+    listaCategorias = [CategoriaDAO recuperarListaCategorias];
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,7 +34,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 2;
+    return listaCategorias.count;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -57,7 +60,9 @@
         }
     }
     
-    cell.txtNome.text = @"Ola";
+    CategoriaDTO *c = [listaCategorias objectAtIndex:indexPath.row];
+    
+    cell.txtNome.text = c.nomeCategoria;
     
     return cell;
 }
@@ -69,9 +74,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    ListaColecionaveisViewController *listaColecionaveis = [[ListaColecionaveisViewController alloc] init];
+    ListaColecionaveisViewController *listaColecionaveisViewController = [[ListaColecionaveisViewController alloc] init];
     
-    [self.navigationController pushViewController:listaColecionaveis animated:TRUE];
+    listaColecionaveisViewController.categoria = [listaCategorias objectAtIndex:indexPath.row];
+    
+    [self.navigationController pushViewController:listaColecionaveisViewController animated:TRUE];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }

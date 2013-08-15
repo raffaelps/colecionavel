@@ -10,4 +10,9 @@
 
 @interface CadastroColecionavelViewController : UIViewController
 
+@property (retain, nonatomic) IBOutlet UIImageView *imgColecionavel;
+@property (retain, nonatomic) IBOutlet UITextField *txtNome;
+@property (retain, nonatomic) IBOutlet UITextField *txtCategoria;
+@property (retain, nonatomic) IBOutlet UITextField *txtDescricao;
+
 @end

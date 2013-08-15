@@ -35,4 +35,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+    [_imgColecionavel release];
+    [_txtNome release];
+    [_txtCategoria release];
+    [_txtDescricao release];
+    [super dealloc];
+}
 @end

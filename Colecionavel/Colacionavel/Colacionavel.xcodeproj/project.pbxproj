@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D11100E17BD705500A66A67 /* ColecionavelDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D11100D17BD705500A66A67 /* ColecionavelDTO.m */; };
+		4D11101217BD717500A66A67 /* ColecionavelDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D11101117BD717500A66A67 /* ColecionavelDAO.m */; };
+		4D11101517BD71B200A66A67 /* CategoriaDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D11101417BD71B200A66A67 /* CategoriaDAO.m */; };
 		4D22236C17A74B6800012C01 /* ListaColecionaveisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22236A17A74B6800012C01 /* ListaColecionaveisViewController.m */; };
 		4D22236D17A74B6800012C01 /* ListaColecionaveisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D22236B17A74B6800012C01 /* ListaColecionaveisViewController.xib */; };
 		4D22237117A74B7E00012C01 /* DetalheColecionavelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D22236F17A74B7E00012C01 /* DetalheColecionavelViewController.m */; };
@@ -30,10 +33,18 @@
 		4D77406917919EE8004B7833 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D77406817919EE8004B7833 /* Default-568h@2x.png */; };
 		4D77406C17919EE8004B7833 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77406B17919EE8004B7833 /* ViewController.m */; };
 		4D77406F17919EE8004B7833 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D77406D17919EE8004B7833 /* ViewController.xib */; };
+		4D7BD71C17BC48460003316A /* CadastroTextoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7BD71B17BC48460003316A /* CadastroTextoCell.m */; };
+		4D7BD71E17BC48560003316A /* CadastroTextoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D7BD71D17BC48560003316A /* CadastroTextoCell.xib */; };
 		4D925A2517B062A300342EED /* CategoriaDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D925A2417B062A300342EED /* CategoriaDTO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D11100C17BD705500A66A67 /* ColecionavelDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColecionavelDTO.h; sourceTree = "<group>"; };
+		4D11100D17BD705500A66A67 /* ColecionavelDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColecionavelDTO.m; sourceTree = "<group>"; };
+		4D11101017BD717500A66A67 /* ColecionavelDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColecionavelDAO.h; sourceTree = "<group>"; };
+		4D11101117BD717500A66A67 /* ColecionavelDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColecionavelDAO.m; sourceTree = "<group>"; };
+		4D11101317BD71B200A66A67 /* CategoriaDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriaDAO.h; sourceTree = "<group>"; };
+		4D11101417BD71B200A66A67 /* CategoriaDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriaDAO.m; sourceTree = "<group>"; };
 		4D22236917A74B6800012C01 /* ListaColecionaveisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaColecionaveisViewController.h; sourceTree = "<group>"; };
 		4D22236A17A74B6800012C01 /* ListaColecionaveisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaColecionaveisViewController.m; sourceTree = "<group>"; };
 		4D22236B17A74B6800012C01 /* ListaColecionaveisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaColecionaveisViewController.xib; sourceTree = "<group>"; };
@@ -68,6 +79,9 @@
 		4D77406A17919EE8004B7833 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4D77406B17919EE8004B7833 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4D77406E17919EE8004B7833 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4D7BD71A17BC48460003316A /* CadastroTextoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CadastroTextoCell.h; sourceTree = "<group>"; };
+		4D7BD71B17BC48460003316A /* CadastroTextoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CadastroTextoCell.m; sourceTree = "<group>"; };
+		4D7BD71D17BC48560003316A /* CadastroTextoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CadastroTextoCell.xib; sourceTree = "<group>"; };
 		4D925A2317B062A300342EED /* CategoriaDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriaDTO.h; sourceTree = "<group>"; };
 		4D925A2417B062A300342EED /* CategoriaDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriaDTO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,12 +100,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D11100F17BD715700A66A67 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				4D11101017BD717500A66A67 /* ColecionavelDAO.h */,
+				4D11101117BD717500A66A67 /* ColecionavelDAO.m */,
+				4D11101317BD71B200A66A67 /* CategoriaDAO.h */,
+				4D11101417BD71B200A66A67 /* CategoriaDAO.m */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
 		4D22238217A74BFC00012C01 /* Celulas */ = {
 			isa = PBXGroup;
 			children = (
 				4D22238317A74C4300012C01 /* PrincipalCell.h */,
 				4D22238417A74C4300012C01 /* PrincipalCell.m */,
 				4D22238617A74C6A00012C01 /* PrincipalCell.xib */,
+				4D7BD71A17BC48460003316A /* CadastroTextoCell.h */,
+				4D7BD71B17BC48460003316A /* CadastroTextoCell.m */,
+				4D7BD71D17BC48560003316A /* CadastroTextoCell.xib */,
 			);
 			name = Celulas;
 			sourceTree = "<group>";
@@ -126,6 +154,7 @@
 		4D77405817919EE8004B7833 /* Colacionavel */ = {
 			isa = PBXGroup;
 			children = (
+				4D11100F17BD715700A66A67 /* DAO */,
 				4D925A2217B0628800342EED /* DTO */,
 				4D22238217A74BFC00012C01 /* Celulas */,
 				4D77406117919EE8004B7833 /* AppDelegate.h */,
@@ -172,6 +201,8 @@
 			children = (
 				4D925A2317B062A300342EED /* CategoriaDTO.h */,
 				4D925A2417B062A300342EED /* CategoriaDTO.m */,
+				4D11100C17BD705500A66A67 /* ColecionavelDTO.h */,
+				4D11100D17BD705500A66A67 /* ColecionavelDTO.m */,
 			);
 			name = DTO;
 			sourceTree = "<group>";
@@ -238,6 +269,7 @@
 				4D22237C17A74BA400012C01 /* CadastroColecionavelViewController.xib in Resources */,
 				4D22238117A74BB800012C01 /* ConfiguracaoViewController.xib in Resources */,
 				4D22238717A74C6A00012C01 /* PrincipalCell.xib in Resources */,
+				4D7BD71E17BC48560003316A /* CadastroTextoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +290,10 @@
 				4D22238017A74BB800012C01 /* ConfiguracaoViewController.m in Sources */,
 				4D22238517A74C4300012C01 /* PrincipalCell.m in Sources */,
 				4D925A2517B062A300342EED /* CategoriaDTO.m in Sources */,
+				4D7BD71C17BC48460003316A /* CadastroTextoCell.m in Sources */,
+				4D11100E17BD705500A66A67 /* ColecionavelDTO.m in Sources */,
+				4D11101217BD717500A66A67 /* ColecionavelDAO.m in Sources */,
+				4D11101517BD71B200A66A67 /* CategoriaDAO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
