@@ -9,9 +9,10 @@
 #import "ListaColecionaveisViewController.h"
 #import "ListaColecionavelCell.h"
 
-@interface ListaColecionaveisViewController ()
+@interface ListaColecionaveisViewController () {
+    NSArray *testeImgs;
 
-
+}
 @end
 
 
@@ -33,6 +34,8 @@
     // Do any additional setup after loading the view from its nib.
     
     [self.listaColecionaveis registerClass:[ListaColecionavelCell class] forCellWithReuseIdentifier:@"cvCell"];
+    
+    testeImgs = [NSArray arrayWithObjects:@"angry_birds_cake.jpg", @"creme_brelee.jpg", @"egg_benedict.jpg", @"full_breakfast.jpg", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,8 +47,7 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    //return [[recipeImages objectAtIndex:section] count];
-    return 10;
+    return testeImgs.count;
     
 }
 
@@ -56,8 +58,16 @@
 
     ListaColecionavelCell *cell = (ListaColecionavelCell *)[collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     
-    cell.nomeColecionavel.text = @"OI";
-    cell.imgColecionavel.image = [UIImage imageNamed:@"full_breakfast.jpg"];
+    //cell.nomeColecionavel.text = [testeImgs objectAtIndex:indexPath.row];
+    
+    [cell.nomeColecionavel setText:[testeImgs objectAtIndex:indexPath.row]];
+    
+    //UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
+    //recipeImageView.image = [UIImage imageNamed:[testeImgs objectAtIndex:indexPath.row]];
+    
+    [cell setSelected:YES];
+    
+
     
     return cell;
 }

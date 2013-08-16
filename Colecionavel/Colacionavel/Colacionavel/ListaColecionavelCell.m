@@ -13,6 +13,34 @@
 @synthesize nomeColecionavel,imgColecionavel;
 
 
+- (id)init
+{
+    if (self) {
+        // Initialization code
+    }
+    return self;
+}
+
+/*
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated
+{
+    [super setSelected:selected animated:animated];
+    
+    // Configure the view for the selected state
+}
+
+
+- (void)setSelected:(BOOL)selected {
+    [super setSelected:selected];
+    
+    if (selected) {
+        [self animateSelection];
+    } else {
+        [self animateDeselection];
+    }
+}
+*/
+
 - (void)dealloc {
     [imgColecionavel release];
     [nomeColecionavel release];
