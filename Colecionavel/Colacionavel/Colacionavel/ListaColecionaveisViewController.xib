@@ -52,7 +52,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<float key="IBUIMinimumZoomScale">0.0</float>
 						<float key="IBUIMaximumZoomScale">0.0</float>
-						<object class="IBUICollectionViewFlowLayout" key="IBUICollectionViewLayout" id="128447857">
+						<object class="IBUICollectionViewFlowLayout" key="IBUICollectionViewLayout" id="863190307">
 							<reference key="IBUICollectionView" ref="280863965"/>
 							<string key="IBUIItemSize">{50, 50}</string>
 							<float key="IBUIMinimumLineSpacing">10</float>
@@ -223,7 +223,7 @@
 								<float key="scoringTypeFloat">9</float>
 								<int key="contentType">1</int>
 							</object>
-							<reference ref="128447857"/>
+							<reference ref="863190307"/>
 						</array>
 						<reference key="parent" ref="486358160"/>
 					</object>
@@ -249,7 +249,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">70</int>
-						<reference key="object" ref="128447857"/>
+						<reference key="object" ref="863190307"/>
 						<reference key="parent" ref="280863965"/>
 					</object>
 				</array>

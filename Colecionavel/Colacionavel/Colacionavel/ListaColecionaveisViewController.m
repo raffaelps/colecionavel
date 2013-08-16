@@ -47,7 +47,9 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return testeImgs.count;
+    //return testeImgs.count;
+    
+    return 1;
     
 }
 
@@ -59,15 +61,12 @@
     ListaColecionavelCell *cell = (ListaColecionavelCell *)[collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     
     //cell.nomeColecionavel.text = [testeImgs objectAtIndex:indexPath.row];
-    
-    [cell.nomeColecionavel setText:[testeImgs objectAtIndex:indexPath.row]];
+    //[cell.nomeColecionavel setText:[testeImgs objectAtIndex:indexPath.row]];
     
     //UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
     //recipeImageView.image = [UIImage imageNamed:[testeImgs objectAtIndex:indexPath.row]];
     
-    [cell setSelected:YES];
-    
-
+    cell.nomeColecionavel.text = @"asbdhsadjasda";
     
     return cell;
 }
