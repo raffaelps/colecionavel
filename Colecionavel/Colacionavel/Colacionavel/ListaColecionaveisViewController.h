@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "CategoriaDTO.h"
 
-@interface ListaColecionaveisViewController : UIViewController
+@interface ListaColecionaveisViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+
+@property (retain, nonatomic) IBOutlet UICollectionView *listaColecionaveis;
+
 
 @property(nonatomic,retain)CategoriaDTO *categoria;
 
 @end
+

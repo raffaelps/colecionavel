@@ -81,6 +81,8 @@
     [self.navigationController pushViewController:listaColecionaveisViewController animated:TRUE];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    
 }
 
 @end
