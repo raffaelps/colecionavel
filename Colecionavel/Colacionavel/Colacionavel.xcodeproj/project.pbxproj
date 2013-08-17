@@ -35,6 +35,10 @@
 		4D77406F17919EE8004B7833 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D77406D17919EE8004B7833 /* ViewController.xib */; };
 		4D7BD71C17BC48460003316A /* CadastroTextoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7BD71B17BC48460003316A /* CadastroTextoCell.m */; };
 		4D7BD71E17BC48560003316A /* CadastroTextoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D7BD71D17BC48560003316A /* CadastroTextoCell.xib */; };
+		4D9075BD17BEF10D00C36397 /* livros.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D9075BC17BEF10D00C36397 /* livros.jpg */; };
+		4D9075C117BEF1B800C36397 /* CadastroCategoriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9075BF17BEF1B800C36397 /* CadastroCategoriaViewController.m */; };
+		4D9075C217BEF1B800C36397 /* CadastroCategoriaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9075C017BEF1B800C36397 /* CadastroCategoriaViewController.xib */; };
+		4D9075C417BEF51C00C36397 /* barraSuperior.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9075C317BEF51C00C36397 /* barraSuperior.png */; };
 		4D925A2517B062A300342EED /* CategoriaDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D925A2417B062A300342EED /* CategoriaDTO.m */; };
 		A737839317BE81B400B40469 /* ListaColecionavelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A737839117BE81B400B40469 /* ListaColecionavelCell.m */; };
 		A737839417BE81B400B40469 /* ListaColecionavelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A737839217BE81B400B40469 /* ListaColecionavelCell.xib */; };
@@ -88,6 +92,11 @@
 		4D7BD71A17BC48460003316A /* CadastroTextoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CadastroTextoCell.h; sourceTree = "<group>"; };
 		4D7BD71B17BC48460003316A /* CadastroTextoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CadastroTextoCell.m; sourceTree = "<group>"; };
 		4D7BD71D17BC48560003316A /* CadastroTextoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CadastroTextoCell.xib; sourceTree = "<group>"; };
+		4D9075BC17BEF10D00C36397 /* livros.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = livros.jpg; sourceTree = "<group>"; };
+		4D9075BE17BEF1B800C36397 /* CadastroCategoriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CadastroCategoriaViewController.h; sourceTree = "<group>"; };
+		4D9075BF17BEF1B800C36397 /* CadastroCategoriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CadastroCategoriaViewController.m; sourceTree = "<group>"; };
+		4D9075C017BEF1B800C36397 /* CadastroCategoriaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CadastroCategoriaViewController.xib; sourceTree = "<group>"; };
+		4D9075C317BEF51C00C36397 /* barraSuperior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = barraSuperior.png; path = "../../../../GameList V1.0/GameList/GameList/barraSuperior.png"; sourceTree = "<group>"; };
 		4D925A2317B062A300342EED /* CategoriaDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriaDTO.h; sourceTree = "<group>"; };
 		4D925A2417B062A300342EED /* CategoriaDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriaDTO.m; sourceTree = "<group>"; };
 		A737839017BE81B400B40469 /* ListaColecionavelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaColecionavelCell.h; sourceTree = "<group>"; };
@@ -195,6 +204,9 @@
 				4D22237D17A74BB700012C01 /* ConfiguracaoViewController.h */,
 				4D22237E17A74BB700012C01 /* ConfiguracaoViewController.m */,
 				4D22237F17A74BB700012C01 /* ConfiguracaoViewController.xib */,
+				4D9075BE17BEF1B800C36397 /* CadastroCategoriaViewController.h */,
+				4D9075BF17BEF1B800C36397 /* CadastroCategoriaViewController.m */,
+				4D9075C017BEF1B800C36397 /* CadastroCategoriaViewController.xib */,
 			);
 			path = Colacionavel;
 			sourceTree = "<group>";
@@ -202,6 +214,8 @@
 		4D77405917919EE8004B7833 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D9075C317BEF51C00C36397 /* barraSuperior.png */,
+				4D9075BC17BEF10D00C36397 /* livros.jpg */,
 				4D77405A17919EE8004B7833 /* Colacionavel-Info.plist */,
 				4D77405B17919EE8004B7833 /* InfoPlist.strings */,
 				4D77405E17919EE8004B7833 /* main.m */,
@@ -298,11 +312,17 @@
 				4D22238117A74BB800012C01 /* ConfiguracaoViewController.xib in Resources */,
 				4D22238717A74C6A00012C01 /* PrincipalCell.xib in Resources */,
 				4D7BD71E17BC48560003316A /* CadastroTextoCell.xib in Resources */,
+<<<<<<< HEAD
 				A737839417BE81B400B40469 /* ListaColecionavelCell.xib in Resources */,
 				A737839717BEAB8100B40469 /* full_breakfast.jpg in Resources */,
 				A737839B17BEC0B700B40469 /* angry_birds_cake.jpg in Resources */,
 				A737839C17BEC0B700B40469 /* creme_brelee.jpg in Resources */,
 				A737839D17BEC0B700B40469 /* egg_benedict.jpg in Resources */,
+=======
+				4D9075BD17BEF10D00C36397 /* livros.jpg in Resources */,
+				4D9075C217BEF1B800C36397 /* CadastroCategoriaViewController.xib in Resources */,
+				4D9075C417BEF51C00C36397 /* barraSuperior.png in Resources */,
+>>>>>>> 7332f8505da21ce35d7ecaa19b01811e692e9b46
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +347,11 @@
 				4D11100E17BD705500A66A67 /* ColecionavelDTO.m in Sources */,
 				4D11101217BD717500A66A67 /* ColecionavelDAO.m in Sources */,
 				4D11101517BD71B200A66A67 /* CategoriaDAO.m in Sources */,
+<<<<<<< HEAD
 				A737839317BE81B400B40469 /* ListaColecionavelCell.m in Sources */,
+=======
+				4D9075C117BEF1B800C36397 /* CadastroCategoriaViewController.m in Sources */,
+>>>>>>> 7332f8505da21ce35d7ecaa19b01811e692e9b46
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

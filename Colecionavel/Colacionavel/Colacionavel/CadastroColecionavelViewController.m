@@ -26,7 +26,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Salvar"
+                                                                    style:UIBarButtonItemStyleBordered target:self action:@selector(salvarCadastro)];
+    self.navigationItem.rightBarButtonItem = rightButton;
+    [rightButton release];
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,4 +45,10 @@
     [_txtDescricao release];
     [super dealloc];
 }
+
+- (void)salvarCadastro
+{
+    
+}
+
 @end

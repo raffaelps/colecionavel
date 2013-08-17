@@ -98,7 +98,7 @@
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<string key="IBUIText">Tampinhas de garrafa</string>
+						<string key="IBUIText"/>
 						<string key="IBUIPlaceholder">categoria</string>
 						<object class="NSColor" key="IBUITextColor" id="137705767">
 							<int key="NSColorSpace">3</int>
@@ -131,7 +131,7 @@
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<string key="IBUIText">Tampinha de garrafa do zé</string>
+						<string key="IBUIText"/>
 						<string key="IBUIPlaceholder">nome</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
@@ -510,8 +510,8 @@
 							</object>
 							<reference ref="660866649"/>
 							<reference ref="417382152"/>
-							<reference ref="905544218"/>
 							<reference ref="473588066"/>
+							<reference ref="905544218"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
