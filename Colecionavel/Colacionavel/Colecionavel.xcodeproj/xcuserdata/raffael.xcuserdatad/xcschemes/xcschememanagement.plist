@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Colacionavel.xcscheme</key>
+		<key>Colecionavel.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4D77404E17919EE8004B7833</key>
+		<key>4D71ECFB17C2EA550063BCBC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

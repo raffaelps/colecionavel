@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D71ED0017C2EA550063BCBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D71ECFF17C2EA550063BCBC /* UIKit.framework */; };
+		4D71ED0217C2EA550063BCBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D71ED0117C2EA550063BCBC /* Foundation.framework */; };
+		4D71ED0417C2EA550063BCBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D71ED0317C2EA550063BCBC /* CoreGraphics.framework */; };
+		4D71ED0A17C2EA550063BCBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED0817C2EA550063BCBC /* InfoPlist.strings */; };
+		4D71ED0C17C2EA550063BCBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED0B17C2EA550063BCBC /* main.m */; };
+		4D71ED1017C2EA550063BCBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED0F17C2EA550063BCBC /* AppDelegate.m */; };
+		4D71ED1217C2EA550063BCBC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED1117C2EA550063BCBC /* Default.png */; };
+		4D71ED1417C2EA550063BCBC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED1317C2EA550063BCBC /* Default@2x.png */; };
+		4D71ED1617C2EA550063BCBC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED1517C2EA550063BCBC /* Default-568h@2x.png */; };
+		4D71ED1917C2EA550063BCBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED1817C2EA550063BCBC /* ViewController.m */; };
+		4D71ED1C17C2EA550063BCBC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED1A17C2EA550063BCBC /* ViewController.xib */; };
+		4D71ED3517C2EB100063BCBC /* BuscaColecionavelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED2617C2EB0F0063BCBC /* BuscaColecionavelViewController.m */; };
+		4D71ED3617C2EB100063BCBC /* BuscaColecionavelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED2717C2EB0F0063BCBC /* BuscaColecionavelViewController.xib */; };
+		4D71ED3717C2EB100063BCBC /* CadastroCategoriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED2917C2EB100063BCBC /* CadastroCategoriaViewController.m */; };
+		4D71ED3817C2EB100063BCBC /* CadastroCategoriaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED2A17C2EB100063BCBC /* CadastroCategoriaViewController.xib */; };
+		4D71ED3917C2EB100063BCBC /* CadastroColecionavelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED2C17C2EB100063BCBC /* CadastroColecionavelViewController.m */; };
+		4D71ED3A17C2EB100063BCBC /* CadastroColecionavelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED2D17C2EB100063BCBC /* CadastroColecionavelViewController.xib */; };
+		4D71ED3B17C2EB100063BCBC /* CadastroTextoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED2F17C2EB100063BCBC /* CadastroTextoCell.m */; };
+		4D71ED3C17C2EB100063BCBC /* CadastroTextoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED3017C2EB100063BCBC /* CadastroTextoCell.xib */; };
+		4D71ED3D17C2EB100063BCBC /* CategoriaDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED3217C2EB100063BCBC /* CategoriaDAO.m */; };
+		4D71ED3E17C2EB100063BCBC /* CategoriaDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED3417C2EB100063BCBC /* CategoriaDTO.m */; };
+		4D71ED4617C2EB1C0063BCBC /* ColecionavelDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED4017C2EB1C0063BCBC /* ColecionavelDAO.m */; };
+		4D71ED4717C2EB1C0063BCBC /* ColecionavelDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED4217C2EB1C0063BCBC /* ColecionavelDTO.m */; };
+		4D71ED4817C2EB1C0063BCBC /* ConfiguracaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED4417C2EB1C0063BCBC /* ConfiguracaoViewController.m */; };
+		4D71ED4917C2EB1C0063BCBC /* ConfiguracaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED4517C2EB1C0063BCBC /* ConfiguracaoViewController.xib */; };
+		4D71ED4D17C2EB270063BCBC /* DetalheColecionavelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED4B17C2EB270063BCBC /* DetalheColecionavelViewController.m */; };
+		4D71ED4E17C2EB270063BCBC /* DetalheColecionavelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED4C17C2EB270063BCBC /* DetalheColecionavelViewController.xib */; };
+		4D71ED5617C2EB330063BCBC /* ListaColecionaveisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED5017C2EB330063BCBC /* ListaColecionaveisViewController.m */; };
+		4D71ED5717C2EB330063BCBC /* ListaColecionaveisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED5117C2EB330063BCBC /* ListaColecionaveisViewController.xib */; };
+		4D71ED5817C2EB330063BCBC /* ListaColecionavelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED5317C2EB330063BCBC /* ListaColecionavelCell.m */; };
+		4D71ED5917C2EB330063BCBC /* ListaColecionavelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED5417C2EB330063BCBC /* ListaColecionavelCell.xib */; };
+		4D71ED5A17C2EB330063BCBC /* livros.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED5517C2EB330063BCBC /* livros.jpg */; };
+		4D71ED5E17C2EB7A0063BCBC /* PrincipalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED5C17C2EB7A0063BCBC /* PrincipalCell.m */; };
+		4D71ED5F17C2EB7A0063BCBC /* PrincipalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED5D17C2EB7A0063BCBC /* PrincipalCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D71ECFC17C2EA550063BCBC /* Colecionavel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colecionavel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D71ECFF17C2EA550063BCBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D71ED0117C2EA550063BCBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D71ED0317C2EA550063BCBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D71ED0717C2EA550063BCBC /* Colecionavel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Colecionavel-Info.plist"; sourceTree = "<group>"; };
+		4D71ED0917C2EA550063BCBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D71ED0B17C2EA550063BCBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D71ED0D17C2EA550063BCBC /* Colecionavel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Colecionavel-Prefix.pch"; sourceTree = "<group>"; };
+		4D71ED0E17C2EA550063BCBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D71ED0F17C2EA550063BCBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D71ED1117C2EA550063BCBC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4D71ED1317C2EA550063BCBC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4D71ED1517C2EA550063BCBC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4D71ED1717C2EA550063BCBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D71ED1817C2EA550063BCBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D71ED1B17C2EA550063BCBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4D71ED2517C2EB0F0063BCBC /* BuscaColecionavelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuscaColecionavelViewController.h; sourceTree = "<group>"; };
+		4D71ED2617C2EB0F0063BCBC /* BuscaColecionavelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuscaColecionavelViewController.m; sourceTree = "<group>"; };
+		4D71ED2717C2EB0F0063BCBC /* BuscaColecionavelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuscaColecionavelViewController.xib; sourceTree = "<group>"; };
+		4D71ED2817C2EB100063BCBC /* CadastroCategoriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CadastroCategoriaViewController.h; sourceTree = "<group>"; };
+		4D71ED2917C2EB100063BCBC /* CadastroCategoriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CadastroCategoriaViewController.m; sourceTree = "<group>"; };
+		4D71ED2A17C2EB100063BCBC /* CadastroCategoriaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CadastroCategoriaViewController.xib; sourceTree = "<group>"; };
+		4D71ED2B17C2EB100063BCBC /* CadastroColecionavelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CadastroColecionavelViewController.h; sourceTree = "<group>"; };
+		4D71ED2C17C2EB100063BCBC /* CadastroColecionavelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CadastroColecionavelViewController.m; sourceTree = "<group>"; };
+		4D71ED2D17C2EB100063BCBC /* CadastroColecionavelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CadastroColecionavelViewController.xib; sourceTree = "<group>"; };
+		4D71ED2E17C2EB100063BCBC /* CadastroTextoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CadastroTextoCell.h; sourceTree = "<group>"; };
+		4D71ED2F17C2EB100063BCBC /* CadastroTextoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CadastroTextoCell.m; sourceTree = "<group>"; };
+		4D71ED3017C2EB100063BCBC /* CadastroTextoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CadastroTextoCell.xib; sourceTree = "<group>"; };
+		4D71ED3117C2EB100063BCBC /* CategoriaDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriaDAO.h; sourceTree = "<group>"; };
+		4D71ED3217C2EB100063BCBC /* CategoriaDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriaDAO.m; sourceTree = "<group>"; };
+		4D71ED3317C2EB100063BCBC /* CategoriaDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriaDTO.h; sourceTree = "<group>"; };
+		4D71ED3417C2EB100063BCBC /* CategoriaDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriaDTO.m; sourceTree = "<group>"; };
+		4D71ED3F17C2EB1C0063BCBC /* ColecionavelDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColecionavelDAO.h; sourceTree = "<group>"; };
+		4D71ED4017C2EB1C0063BCBC /* ColecionavelDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColecionavelDAO.m; sourceTree = "<group>"; };
+		4D71ED4117C2EB1C0063BCBC /* ColecionavelDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColecionavelDTO.h; sourceTree = "<group>"; };
+		4D71ED4217C2EB1C0063BCBC /* ColecionavelDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColecionavelDTO.m; sourceTree = "<group>"; };
+		4D71ED4317C2EB1C0063BCBC /* ConfiguracaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfiguracaoViewController.h; sourceTree = "<group>"; };
+		4D71ED4417C2EB1C0063BCBC /* ConfiguracaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfiguracaoViewController.m; sourceTree = "<group>"; };
+		4D71ED4517C2EB1C0063BCBC /* ConfiguracaoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfiguracaoViewController.xib; sourceTree = "<group>"; };
+		4D71ED4A17C2EB270063BCBC /* DetalheColecionavelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalheColecionavelViewController.h; sourceTree = "<group>"; };
+		4D71ED4B17C2EB270063BCBC /* DetalheColecionavelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalheColecionavelViewController.m; sourceTree = "<group>"; };
+		4D71ED4C17C2EB270063BCBC /* DetalheColecionavelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalheColecionavelViewController.xib; sourceTree = "<group>"; };
+		4D71ED4F17C2EB330063BCBC /* ListaColecionaveisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaColecionaveisViewController.h; sourceTree = "<group>"; };
+		4D71ED5017C2EB330063BCBC /* ListaColecionaveisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaColecionaveisViewController.m; sourceTree = "<group>"; };
+		4D71ED5117C2EB330063BCBC /* ListaColecionaveisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaColecionaveisViewController.xib; sourceTree = "<group>"; };
+		4D71ED5217C2EB330063BCBC /* ListaColecionavelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaColecionavelCell.h; sourceTree = "<group>"; };
+		4D71ED5317C2EB330063BCBC /* ListaColecionavelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaColecionavelCell.m; sourceTree = "<group>"; };
+		4D71ED5417C2EB330063BCBC /* ListaColecionavelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaColecionavelCell.xib; sourceTree = "<group>"; };
+		4D71ED5517C2EB330063BCBC /* livros.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = livros.jpg; sourceTree = "<group>"; };
+		4D71ED5B17C2EB7A0063BCBC /* PrincipalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincipalCell.h; sourceTree = "<group>"; };
+		4D71ED5C17C2EB7A0063BCBC /* PrincipalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrincipalCell.m; sourceTree = "<group>"; };
+		4D71ED5D17C2EB7A0063BCBC /* PrincipalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrincipalCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D71ECF917C2EA550063BCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D71ED0017C2EA550063BCBC /* UIKit.framework in Frameworks */,
+				4D71ED0217C2EA550063BCBC /* Foundation.framework in Frameworks */,
+				4D71ED0417C2EA550063BCBC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D71ECF317C2EA550063BCBC = {
+			isa = PBXGroup;
+			children = (
+				4D71ED0517C2EA550063BCBC /* Colecionavel */,
+				4D71ECFE17C2EA550063BCBC /* Frameworks */,
+				4D71ECFD17C2EA550063BCBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D71ECFD17C2EA550063BCBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D71ECFC17C2EA550063BCBC /* Colecionavel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D71ECFE17C2EA550063BCBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D71ECFF17C2EA550063BCBC /* UIKit.framework */,
+				4D71ED0117C2EA550063BCBC /* Foundation.framework */,
+				4D71ED0317C2EA550063BCBC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D71ED0517C2EA550063BCBC /* Colecionavel */ = {
+			isa = PBXGroup;
+			children = (
+				4D71ED0E17C2EA550063BCBC /* AppDelegate.h */,
+				4D71ED0F17C2EA550063BCBC /* AppDelegate.m */,
+				4D71ED2517C2EB0F0063BCBC /* BuscaColecionavelViewController.h */,
+				4D71ED2617C2EB0F0063BCBC /* BuscaColecionavelViewController.m */,
+				4D71ED2717C2EB0F0063BCBC /* BuscaColecionavelViewController.xib */,
+				4D71ED2817C2EB100063BCBC /* CadastroCategoriaViewController.h */,
+				4D71ED2917C2EB100063BCBC /* CadastroCategoriaViewController.m */,
+				4D71ED2A17C2EB100063BCBC /* CadastroCategoriaViewController.xib */,
+				4D71ED2B17C2EB100063BCBC /* CadastroColecionavelViewController.h */,
+				4D71ED2C17C2EB100063BCBC /* CadastroColecionavelViewController.m */,
+				4D71ED2D17C2EB100063BCBC /* CadastroColecionavelViewController.xib */,
+				4D71ED6217C2EC150063BCBC /* Cell */,
+				4D71ED4317C2EB1C0063BCBC /* ConfiguracaoViewController.h */,
+				4D71ED4417C2EB1C0063BCBC /* ConfiguracaoViewController.m */,
+				4D71ED4517C2EB1C0063BCBC /* ConfiguracaoViewController.xib */,
+				4D71ED6017C2EBF60063BCBC /* DAO */,
+				4D71ED4A17C2EB270063BCBC /* DetalheColecionavelViewController.h */,
+				4D71ED4B17C2EB270063BCBC /* DetalheColecionavelViewController.m */,
+				4D71ED4C17C2EB270063BCBC /* DetalheColecionavelViewController.xib */,
+				4D71ED6117C2EC020063BCBC /* DTO */,
+				4D71ED4F17C2EB330063BCBC /* ListaColecionaveisViewController.h */,
+				4D71ED5017C2EB330063BCBC /* ListaColecionaveisViewController.m */,
+				4D71ED5117C2EB330063BCBC /* ListaColecionaveisViewController.xib */,
+				4D71ED0617C2EA550063BCBC /* Supporting Files */,
+				4D71ED1717C2EA550063BCBC /* ViewController.h */,
+				4D71ED1817C2EA550063BCBC /* ViewController.m */,
+				4D71ED1A17C2EA550063BCBC /* ViewController.xib */,
+			);
+			path = Colecionavel;
+			sourceTree = "<group>";
+		};
+		4D71ED0617C2EA550063BCBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D71ED5517C2EB330063BCBC /* livros.jpg */,
+				4D71ED0717C2EA550063BCBC /* Colecionavel-Info.plist */,
+				4D71ED0817C2EA550063BCBC /* InfoPlist.strings */,
+				4D71ED0B17C2EA550063BCBC /* main.m */,
+				4D71ED0D17C2EA550063BCBC /* Colecionavel-Prefix.pch */,
+				4D71ED1117C2EA550063BCBC /* Default.png */,
+				4D71ED1317C2EA550063BCBC /* Default@2x.png */,
+				4D71ED1517C2EA550063BCBC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D71ED6017C2EBF60063BCBC /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				4D71ED3F17C2EB1C0063BCBC /* ColecionavelDAO.h */,
+				4D71ED4017C2EB1C0063BCBC /* ColecionavelDAO.m */,
+				4D71ED3117C2EB100063BCBC /* CategoriaDAO.h */,
+				4D71ED3217C2EB100063BCBC /* CategoriaDAO.m */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		4D71ED6117C2EC020063BCBC /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				4D71ED4117C2EB1C0063BCBC /* ColecionavelDTO.h */,
+				4D71ED4217C2EB1C0063BCBC /* ColecionavelDTO.m */,
+				4D71ED3317C2EB100063BCBC /* CategoriaDTO.h */,
+				4D71ED3417C2EB100063BCBC /* CategoriaDTO.m */,
+			);
+			name = DTO;
+			sourceTree = "<group>";
+		};
+		4D71ED6217C2EC150063BCBC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4D71ED5B17C2EB7A0063BCBC /* PrincipalCell.h */,
+				4D71ED5C17C2EB7A0063BCBC /* PrincipalCell.m */,
+				4D71ED5D17C2EB7A0063BCBC /* PrincipalCell.xib */,
+				4D71ED5217C2EB330063BCBC /* ListaColecionavelCell.h */,
+				4D71ED5317C2EB330063BCBC /* ListaColecionavelCell.m */,
+				4D71ED5417C2EB330063BCBC /* ListaColecionavelCell.xib */,
+				4D71ED2E17C2EB100063BCBC /* CadastroTextoCell.h */,
+				4D71ED2F17C2EB100063BCBC /* CadastroTextoCell.m */,
+				4D71ED3017C2EB100063BCBC /* CadastroTextoCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D71ECFB17C2EA550063BCBC /* Colecionavel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D71ED1F17C2EA550063BCBC /* Build configuration list for PBXNativeTarget "Colecionavel" */;
+			buildPhases = (
+				4D71ECF817C2EA550063BCBC /* Sources */,
+				4D71ECF917C2EA550063BCBC /* Frameworks */,
+				4D71ECFA17C2EA550063BCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colecionavel;
+			productName = Colecionavel;
+			productReference = 4D71ECFC17C2EA550063BCBC /* Colecionavel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D71ECF417C2EA550063BCBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = raffaelps;
+			};
+			buildConfigurationList = 4D71ECF717C2EA550063BCBC /* Build configuration list for PBXProject "Colecionavel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D71ECF317C2EA550063BCBC;
+			productRefGroup = 4D71ECFD17C2EA550063BCBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D71ECFB17C2EA550063BCBC /* Colecionavel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D71ECFA17C2EA550063BCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D71ED0A17C2EA550063BCBC /* InfoPlist.strings in Resources */,
+				4D71ED1217C2EA550063BCBC /* Default.png in Resources */,
+				4D71ED1417C2EA550063BCBC /* Default@2x.png in Resources */,
+				4D71ED1617C2EA550063BCBC /* Default-568h@2x.png in Resources */,
+				4D71ED1C17C2EA550063BCBC /* ViewController.xib in Resources */,
+				4D71ED3617C2EB100063BCBC /* BuscaColecionavelViewController.xib in Resources */,
+				4D71ED3817C2EB100063BCBC /* CadastroCategoriaViewController.xib in Resources */,
+				4D71ED3A17C2EB100063BCBC /* CadastroColecionavelViewController.xib in Resources */,
+				4D71ED3C17C2EB100063BCBC /* CadastroTextoCell.xib in Resources */,
+				4D71ED4917C2EB1C0063BCBC /* ConfiguracaoViewController.xib in Resources */,
+				4D71ED4E17C2EB270063BCBC /* DetalheColecionavelViewController.xib in Resources */,
+				4D71ED5717C2EB330063BCBC /* ListaColecionaveisViewController.xib in Resources */,
+				4D71ED5917C2EB330063BCBC /* ListaColecionavelCell.xib in Resources */,
+				4D71ED5A17C2EB330063BCBC /* livros.jpg in Resources */,
+				4D71ED5F17C2EB7A0063BCBC /* PrincipalCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D71ECF817C2EA550063BCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D71ED0C17C2EA550063BCBC /* main.m in Sources */,
+				4D71ED1017C2EA550063BCBC /* AppDelegate.m in Sources */,
+				4D71ED1917C2EA550063BCBC /* ViewController.m in Sources */,
+				4D71ED3517C2EB100063BCBC /* BuscaColecionavelViewController.m in Sources */,
+				4D71ED3717C2EB100063BCBC /* CadastroCategoriaViewController.m in Sources */,
+				4D71ED3917C2EB100063BCBC /* CadastroColecionavelViewController.m in Sources */,
+				4D71ED3B17C2EB100063BCBC /* CadastroTextoCell.m in Sources */,
+				4D71ED3D17C2EB100063BCBC /* CategoriaDAO.m in Sources */,
+				4D71ED3E17C2EB100063BCBC /* CategoriaDTO.m in Sources */,
+				4D71ED4617C2EB1C0063BCBC /* ColecionavelDAO.m in Sources */,
+				4D71ED4717C2EB1C0063BCBC /* ColecionavelDTO.m in Sources */,
+				4D71ED4817C2EB1C0063BCBC /* ConfiguracaoViewController.m in Sources */,
+				4D71ED4D17C2EB270063BCBC /* DetalheColecionavelViewController.m in Sources */,
+				4D71ED5617C2EB330063BCBC /* ListaColecionaveisViewController.m in Sources */,
+				4D71ED5817C2EB330063BCBC /* ListaColecionavelCell.m in Sources */,
+				4D71ED5E17C2EB7A0063BCBC /* PrincipalCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D71ED0817C2EA550063BCBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D71ED0917C2EA550063BCBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D71ED1A17C2EA550063BCBC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D71ED1B17C2EA550063BCBC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D71ED1D17C2EA550063BCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D71ED1E17C2EA550063BCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D71ED2017C2EA550063BCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Colecionavel/Colecionavel-Prefix.pch";
+				INFOPLIST_FILE = "Colecionavel/Colecionavel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D71ED2117C2EA550063BCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Colecionavel/Colecionavel-Prefix.pch";
+				INFOPLIST_FILE = "Colecionavel/Colecionavel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D71ECF717C2EA550063BCBC /* Build configuration list for PBXProject "Colecionavel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D71ED1D17C2EA550063BCBC /* Debug */,
+				4D71ED1E17C2EA550063BCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D71ED1F17C2EA550063BCBC /* Build configuration list for PBXNativeTarget "Colecionavel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D71ED2017C2EA550063BCBC /* Debug */,
+				4D71ED2117C2EA550063BCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D71ECF417C2EA550063BCBC /* Project object */;
+}
