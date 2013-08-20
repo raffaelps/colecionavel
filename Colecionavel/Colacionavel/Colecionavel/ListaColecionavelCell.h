@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ListaColecionavelCell : UICollectionViewCell
+
 @property (retain, nonatomic) IBOutlet UILabel *nomeColecionavel;
 @property (retain, nonatomic) IBOutlet UIImageView *imgColecionavel;
 

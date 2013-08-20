@@ -8,15 +8,11 @@
 
 #import "ListaColecionaveisViewController.h"
 #import "ListaColecionavelCell.h"
-
-@interface ListaColecionaveisViewController () {
-    NSArray *testeImgs;
-
-}
-@end
-
+#import "DetalheColecionavelViewController.h"
 
 @implementation ListaColecionaveisViewController
+
+static NSString * const kCellReuseIdentifier = @"collectionViewCell";
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,46 +27,53 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self.collectionView registerNib:[UINib nibWithNibName:@"ListaColecionavelCell" bundle:nil] forCellWithReuseIdentifier:kCellReuseIdentifier];
+    
+    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    [flowLayout setItemSize:CGSizeMake(130, 130)];
+    [flowLayout setHeaderReferenceSize:CGSizeMake(10,10)];
+    [flowLayout setFooterReferenceSize:CGSizeMake(10,10)];
+    [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
+    
+    UIEdgeInsets edgeInsets  = UIEdgeInsetsMake(15, 20, 15, 20);
+    [flowLayout setSectionInset:edgeInsets];
+    
+    [self.collectionView setCollectionViewLayout:flowLayout];
+    [self.collectionView setAllowsSelection:YES];
+    
     // Do any additional setup after loading the view from its nib.
-    
-    [self.listaColecionaveis registerClass:[ListaColecionavelCell class] forCellWithReuseIdentifier:@"cvCell"];
-    
-    testeImgs = [NSArray arrayWithObjects:@"angry_birds_cake.jpg", @"creme_brelee.jpg", @"egg_benedict.jpg", @"full_breakfast.jpg", nil];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-    
-    self.listaColecionaveis = nil;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    //return testeImgs.count;
-    
-    return 1;
-    
+    return 30;
 }
 
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
+{
+    return 1;
+}
 
-- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
     
-    static NSString *cellIdentifier = @"cvCell";
-
-    ListaColecionavelCell *cell = (ListaColecionavelCell *)[collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
-    
-    //cell.nomeColecionavel.text = [testeImgs objectAtIndex:indexPath.row];
-    //[cell.nomeColecionavel setText:[testeImgs objectAtIndex:indexPath.row]];
-    
-    //UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
-    //recipeImageView.image = [UIImage imageNamed:[testeImgs objectAtIndex:indexPath.row]];
-    
-    cell.nomeColecionavel.text = @"asbdhsadjasda";
+    ListaColecionavelCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kCellReuseIdentifier forIndexPath:indexPath];
+    [cell.nomeColecionavel setText:[NSString stringWithFormat:@"%d",indexPath.row]];
+    [cell.imgColecionavel setImage:[UIImage imageNamed:@"livros.jpg"]];
     
     return cell;
 }
 
-
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetalheColecionavelViewController *detalheColectionavelViewController = [[DetalheColecionavelViewController alloc] init];
+    [self.navigationController pushViewController:detalheColectionavelViewController animated:YES];
+}
 
 @end
