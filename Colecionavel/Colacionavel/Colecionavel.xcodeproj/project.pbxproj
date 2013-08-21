@@ -38,9 +38,11 @@
 		4D71ED5717C2EB330063BCBC /* ListaColecionaveisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED5117C2EB330063BCBC /* ListaColecionaveisViewController.xib */; };
 		4D71ED5817C2EB330063BCBC /* ListaColecionavelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED5317C2EB330063BCBC /* ListaColecionavelCell.m */; };
 		4D71ED5917C2EB330063BCBC /* ListaColecionavelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED5417C2EB330063BCBC /* ListaColecionavelCell.xib */; };
-		4D71ED5A17C2EB330063BCBC /* livros.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED5517C2EB330063BCBC /* livros.jpg */; };
 		4D71ED5E17C2EB7A0063BCBC /* PrincipalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D71ED5C17C2EB7A0063BCBC /* PrincipalCell.m */; };
 		4D71ED5F17C2EB7A0063BCBC /* PrincipalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D71ED5D17C2EB7A0063BCBC /* PrincipalCell.xib */; };
+		4DCF059817C43BCA00E64C82 /* livros.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF059717C43BCA00E64C82 /* livros.png */; };
+		4DCF059A17C43E4600E64C82 /* back-cell-principal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF059917C43E4600E64C82 /* back-cell-principal.png */; };
+		4DCF059C17C4404100E64C82 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF059B17C4404100E64C82 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,10 +94,12 @@
 		4D71ED5217C2EB330063BCBC /* ListaColecionavelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaColecionavelCell.h; sourceTree = "<group>"; };
 		4D71ED5317C2EB330063BCBC /* ListaColecionavelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaColecionavelCell.m; sourceTree = "<group>"; };
 		4D71ED5417C2EB330063BCBC /* ListaColecionavelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaColecionavelCell.xib; sourceTree = "<group>"; };
-		4D71ED5517C2EB330063BCBC /* livros.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = livros.jpg; sourceTree = "<group>"; };
 		4D71ED5B17C2EB7A0063BCBC /* PrincipalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincipalCell.h; sourceTree = "<group>"; };
 		4D71ED5C17C2EB7A0063BCBC /* PrincipalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrincipalCell.m; sourceTree = "<group>"; };
 		4D71ED5D17C2EB7A0063BCBC /* PrincipalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrincipalCell.xib; sourceTree = "<group>"; };
+		4DCF059717C43BCA00E64C82 /* livros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = livros.png; sourceTree = "<group>"; };
+		4DCF059917C43E4600E64C82 /* back-cell-principal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-cell-principal.png"; sourceTree = "<group>"; };
+		4DCF059B17C4404100E64C82 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +180,9 @@
 		4D71ED0617C2EA550063BCBC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D71ED5517C2EB330063BCBC /* livros.jpg */,
+				4DCF059B17C4404100E64C82 /* background.png */,
+				4DCF059917C43E4600E64C82 /* back-cell-principal.png */,
+				4DCF059717C43BCA00E64C82 /* livros.png */,
 				4D71ED0717C2EA550063BCBC /* Colecionavel-Info.plist */,
 				4D71ED0817C2EA550063BCBC /* InfoPlist.strings */,
 				4D71ED0B17C2EA550063BCBC /* main.m */,
@@ -290,8 +296,10 @@
 				4D71ED4E17C2EB270063BCBC /* DetalheColecionavelViewController.xib in Resources */,
 				4D71ED5717C2EB330063BCBC /* ListaColecionaveisViewController.xib in Resources */,
 				4D71ED5917C2EB330063BCBC /* ListaColecionavelCell.xib in Resources */,
-				4D71ED5A17C2EB330063BCBC /* livros.jpg in Resources */,
 				4D71ED5F17C2EB7A0063BCBC /* PrincipalCell.xib in Resources */,
+				4DCF059817C43BCA00E64C82 /* livros.png in Resources */,
+				4DCF059A17C43E4600E64C82 /* back-cell-principal.png in Resources */,
+				4DCF059C17C4404100E64C82 /* background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +446,7 @@
 				4D71ED2117C2EA550063BCBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -31,13 +31,13 @@ static NSString * const kCellReuseIdentifier = @"collectionViewCell";
     [self.collectionView registerNib:[UINib nibWithNibName:@"ListaColecionavelCell" bundle:nil] forCellWithReuseIdentifier:kCellReuseIdentifier];
     
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
-    [flowLayout setItemSize:CGSizeMake(130, 130)];
-    [flowLayout setHeaderReferenceSize:CGSizeMake(10,10)];
-    [flowLayout setFooterReferenceSize:CGSizeMake(10,10)];
+    [flowLayout setItemSize:CGSizeMake(159, 159)];
+    [flowLayout setHeaderReferenceSize:CGSizeMake(0,0)];
+    [flowLayout setFooterReferenceSize:CGSizeMake(0,0)];
+    [flowLayout setMinimumLineSpacing:2];
+    [flowLayout setMinimumInteritemSpacing:0];
+    [flowLayout setSectionInset:UIEdgeInsetsMake(0,0,0,0)];
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
-    
-    UIEdgeInsets edgeInsets  = UIEdgeInsetsMake(15, 20, 15, 20);
-    [flowLayout setSectionInset:edgeInsets];
     
     [self.collectionView setCollectionViewLayout:flowLayout];
     [self.collectionView setAllowsSelection:YES];
@@ -64,8 +64,8 @@ static NSString * const kCellReuseIdentifier = @"collectionViewCell";
 {
     
     ListaColecionavelCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kCellReuseIdentifier forIndexPath:indexPath];
-    [cell.nomeColecionavel setText:[NSString stringWithFormat:@"%d",indexPath.row]];
-    [cell.imgColecionavel setImage:[UIImage imageNamed:@"livros.jpg"]];
+    [cell.nomeColecionavel setText:@"A volta dos cachorros sem dono"];
+    [cell.imgColecionavel setImage:[UIImage imageNamed:@"livros.png"]];
     
     return cell;
 }
@@ -74,6 +74,10 @@ static NSString * const kCellReuseIdentifier = @"collectionViewCell";
 {
     DetalheColecionavelViewController *detalheColectionavelViewController = [[DetalheColecionavelViewController alloc] init];
     [self.navigationController pushViewController:detalheColectionavelViewController animated:YES];
+}
+
+- (CGSize)collectionViewContentSize {
+    return CGSizeMake(320, 568);
 }
 
 @end

@@ -24,13 +24,15 @@
     [super viewDidLoad];
     self.title = @"Colecionável";
     
-    [self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:53.0/255.0 green:146.0/255.0 blue:156.0/255.0 alpha:1.0]];
+    [self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:44.0/255.0 green:92.0/255.0 blue:131.0/255.0 alpha:1.0]];
     UIImage *imagem = [UIImage imageNamed:@"barraSuperior.png"];
     [self.navigationController.navigationBar setBackgroundImage:imagem forBarMetrics:UIBarMetricsDefault];
     UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Nova"
-                                                                    style:UIBarButtonItemStyleBordered target:self action:@selector(abrirCadastroCategoria)];
+                                                                    style:UIBarButtonItemStylePlain target:self action:@selector(abrirCadastroCategoria)];
     self.navigationItem.rightBarButtonItem = rightButton;
     [rightButton release];
+    
+    [self.tabela setContentInset:UIEdgeInsetsMake(5,0,0,0)];
     
     listaCategorias = [CategoriaDAO recuperarListaCategorias];
 }
@@ -78,14 +80,15 @@
     CategoriaDTO *c = [listaCategorias objectAtIndex:indexPath.row];
     
     cell.txtNome.text = c.nomeCategoria;
-    cell.txtQuantidade.text = [NSString stringWithFormat:@"15"];
+    cell.txtQuantidade.text = [NSString stringWithFormat:@"%d",10];
+    cell.txtDescricao.text = c.descricaoCategoria;
     
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 70;
+    return 114;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -97,8 +100,6 @@
     [self.navigationController pushViewController:listaColecionaveisViewController animated:TRUE];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    
 }
 
 @end

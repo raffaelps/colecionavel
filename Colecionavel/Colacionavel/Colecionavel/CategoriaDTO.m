@@ -12,13 +12,14 @@
 
 @synthesize imagemCategoria,nomeCategoria;
 
-- (id)initWithValue:(NSNumber *)idCat nomeCategoria:(NSString *)nome imagemCategoria:(UIImage *)imagem
+- (id) initWithValue:(NSNumber*)idCat nomeCategoria:(NSString*)nome descricao:(NSString*)des imagemCategoria:(UIImage*)imagem
 {
     if (self = [super init])
     {
         self.idCategoria = idCat;
         self.nomeCategoria = nome;
         self.imagemCategoria = imagem;
+        self.descricaoCategoria = des;
     }
     
     return self;

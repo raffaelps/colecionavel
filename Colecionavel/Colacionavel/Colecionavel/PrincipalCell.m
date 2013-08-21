@@ -10,7 +10,7 @@
 
 @implementation PrincipalCell
 
-@synthesize img,textLabel;
+@synthesize img,txtDescricao,txtNome,txtQuantidade;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

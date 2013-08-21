@@ -13,8 +13,11 @@
 
 + (NSMutableArray *)recuperarListaCategorias
 {
-    CategoriaDTO *c = [[CategoriaDTO alloc] initWithValue:[NSNumber numberWithInt:1] nomeCategoria:@"Livros" imagemCategoria:nil];
-    NSMutableArray *retorno = [[NSMutableArray alloc] initWithObjects:c, nil];
+    CategoriaDTO *a = [[CategoriaDTO alloc] initWithValue:[NSNumber numberWithInt:1] nomeCategoria:@"Livros" descricao:@"Minha coleção de livros" imagemCategoria:nil];
+    CategoriaDTO *b = [[CategoriaDTO alloc] initWithValue:[NSNumber numberWithInt:1] nomeCategoria:@"CDs" descricao:@"Minha coleção de CDs" imagemCategoria:nil];
+    CategoriaDTO *c = [[CategoriaDTO alloc] initWithValue:[NSNumber numberWithInt:1] nomeCategoria:@"Apostilas didáticas" descricao:@"Minha coleção de apostilas" imagemCategoria:nil];
+    
+    NSMutableArray *retorno = [[NSMutableArray alloc] initWithObjects:a,b,c, nil];
     
     return retorno;
 }

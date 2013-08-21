@@ -46,27 +46,17 @@
 						<reference key="NSSuperview" ref="486358160"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<object class="NSColor" key="IBUIBackgroundColor">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MCAwAA</bytes>
-						</object>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<float key="IBUIMinimumZoomScale">0.0</float>
 						<float key="IBUIMaximumZoomScale">0.0</float>
-						<object class="IBUICollectionViewFlowLayout" key="IBUICollectionViewLayout" id="863190307">
+						<object class="IBUICollectionViewFlowLayout" key="IBUICollectionViewLayout" id="662528647">
 							<reference key="IBUICollectionView" ref="280863965"/>
-							<string key="IBUIItemSize">{130, 130}</string>
-							<string key="IBUIHeaderReferenceSize">{10, 10}</string>
-							<string key="IBUIFooterReferenceSize">{10, 10}</string>
-							<float key="IBUIMinimumLineSpacing">10</float>
-							<float key="IBUIMinimumInteritemSpacing">10</float>
-							<double key="IBUISectionInset.top">15</double>
-							<double key="IBUISectionInset.bottom">15</double>
-							<double key="IBUISectionInset.left">20</double>
-							<double key="IBUISectionInset.right">20</double>
+							<string key="IBUIItemSize">{159, 159}</string>
+							<float key="IBUIMinimumLineSpacing">2</float>
+							<float key="IBUIMinimumInteritemSpacing">2</float>
 						</object>
 						<array key="IBUICells" id="0"/>
 					</object>
@@ -233,7 +223,7 @@
 						<int key="objectID">52</int>
 						<reference key="object" ref="280863965"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="863190307"/>
+							<reference ref="662528647"/>
 						</array>
 						<reference key="parent" ref="486358160"/>
 					</object>
@@ -248,11 +238,6 @@
 						<reference key="parent" ref="486358160"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">70</int>
-						<reference key="object" ref="863190307"/>
-						<reference key="parent" ref="280863965"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">71</int>
 						<reference key="object" ref="812111278"/>
 						<reference key="parent" ref="486358160"/>
@@ -261,6 +246,11 @@
 						<int key="objectID">73</int>
 						<reference key="object" ref="383051665"/>
 						<reference key="parent" ref="486358160"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">76</int>
+						<reference key="object" ref="662528647"/>
+						<reference key="parent" ref="280863965"/>
 					</object>
 				</array>
 			</object>
@@ -280,15 +270,15 @@
 				<boolean value="NO" key="52.IBViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="58.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="59.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="70.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="71.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="73.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="76.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">74</int>
+			<int key="maxID">76</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">

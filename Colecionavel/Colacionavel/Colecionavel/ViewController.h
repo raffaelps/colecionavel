@@ -13,4 +13,6 @@
     NSMutableArray *listaCategorias;
 }
 
+@property (nonatomic,retain)IBOutlet UITableView *tabela;
+
 @end

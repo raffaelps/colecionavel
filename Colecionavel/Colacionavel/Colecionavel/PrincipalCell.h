@@ -11,6 +11,7 @@
 @interface PrincipalCell : UITableViewCell
 
 @property(nonatomic,retain)IBOutlet UILabel *txtNome;
+@property(nonatomic,retain)IBOutlet UILabel *txtDescricao;
 @property(nonatomic,retain)IBOutlet UILabel *txtQuantidade;
 @property(nonatomic,retain)IBOutlet UIImageView *img;
 
