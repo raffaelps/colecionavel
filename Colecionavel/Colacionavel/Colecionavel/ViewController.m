@@ -25,7 +25,7 @@
     self.title = @"Colecionável";
     
     [self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:44.0/255.0 green:92.0/255.0 blue:131.0/255.0 alpha:1.0]];
-    UIImage *imagem = [UIImage imageNamed:@"barraSuperior.png"];
+    UIImage *imagem = [UIImage imageNamed:@"barra-superior.png"];
     [self.navigationController.navigationBar setBackgroundImage:imagem forBarMetrics:UIBarMetricsDefault];
     UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Nova"
                                                                     style:UIBarButtonItemStylePlain target:self action:@selector(abrirCadastroCategoria)];
